@@ -1,0 +1,14 @@
+For Apache 2.2 and php 5
+
+[httpd.conf]
+#BEGIN PHP INSTALLER EDITS - REMOVE ONLY ON UNINSTALL
+PHPIniDir "%PHP_HOME%"
+LoadModule php5_module "%PHP_HOME%\php5apache2_2.dll"
+#END PHP INSTALLER EDITS - REMOVE ONLY ON UNINSTALL
+[httpd.conf]
+
+Copy web to Apache to htdocs -- %APACHE_HOME%/htdocs.
+
+Restart Apache
+
+Load http://localhost/web/dojo/demos.php
