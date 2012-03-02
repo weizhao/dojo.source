@@ -11,4 +11,4 @@ Copy web to Apache to htdocs -- %APACHE_HOME%/htdocs.
 
 Restart Apache
 
-Load http://localhost/web/dojo/demos.php
+Load http://localhost/web/dojo/demos/demos.php
